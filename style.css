@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+    margin: 1%;
+}
+
+h1{
+    text-align: center;
+}
+
+input, label{
+    display: block;
+    margin: 1%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.gridForm{
+    grid-column: 1;
+    grid-row: 1/2;
+}
+
+.gridPastEntries{
+    grid-column: 2;
+    grid-row: 1/2;
+}
